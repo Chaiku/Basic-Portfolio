@@ -106,8 +106,13 @@ button {
 
 .label {
     color: black;
+    background-color: teal;
     font-size: 28px;
-
+    text-align: center;
+    right: 0px;
+    width: 300px;
+    position: absolute;
+    
 }
 .vsfxBox  {
     position: absolute;
@@ -119,12 +124,8 @@ button {
 }
 
 .vsfxLabel {
-    background-color: teal;
-    position: absolute;
     bottom: 237px;
-    right: 0px;
-    width: 300px;
-    text-align: center;
+
 }
 
 .drumBox {
@@ -139,12 +140,7 @@ button {
 }
 
 .drumLabel {
-    background-color: teal;
-    position: absolute;
     bottom: 234px;
-    right: 0px;
-    width: 300px;
-    text-align: center;
 }
 
 .musicBox {
@@ -159,12 +155,7 @@ button {
 }
 
 .musicLabel{
-    background-color: teal;
-    position: absolute;
     bottom: 223px;
-    right: 0px;
-    width: 300px;
-    text-align: center;
 }
 
 .voiceBox {
@@ -179,12 +170,7 @@ button {
 }
 
 .voiceLabel {
-    background-color: teal;
-    position: absolute;
     bottom: 234px;
-    right: 0px;
-    width: 300px;
-    text-align: center;
 }
 
 .footer {
