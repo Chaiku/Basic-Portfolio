@@ -7,7 +7,7 @@ body {
 .header {
     float: left;
     color: white;
-    background-color: teal;
+    background-color: #4aaaa5;
     font-size: 40px;
     margin-left: 104px;
     padding: 20px; 
@@ -18,8 +18,7 @@ body {
     background-color: white;
     width: 100%;
     height: 79px;
-    border-bottom: 2px solid slategray
-
+    border-bottom: 1px solid #666666;
 
 }
 
@@ -28,15 +27,16 @@ body {
     background-color: white;
     position: relative;
     left: 40%;
+    height: 20px;
 
 }
 
 a:link {
-    color: teal;
+    color: #4aaaa5;
 }
 
 a:visited {
-    color: teal;
+    color: #4aaaa5;
 }
 button {
     background-color: transparent;
@@ -47,7 +47,8 @@ button {
     text-align: center;
     font-size: 35px;
     padding: 10px 20px;
-    color: teal;
+    color: #4aaaa5;
+    margin-top: 10px;
 }
 
 
@@ -61,7 +62,7 @@ button {
 }
 
 .aboutHeader, .contactHeader, .portfolioHeader {
-    Color: teal;
+    Color: #4aaaa5;
     background-color: white;
     font-size: 36px;
     position: absolute;
@@ -76,7 +77,7 @@ button {
 
 }
 
-.aboutBody {
+.aboutBody, .contactBody, .portfolioBody {
     background-color: white;
     position: absolute;
     width: 1301px;
@@ -88,9 +89,11 @@ button {
     margin: 61px auto;
 }
 
+
 .aboutBody p {
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 1px;
+    color: #777777;
 }
 
 
@@ -101,6 +104,11 @@ button {
     padding: 15px;
 }
 
+.label {
+    color: black;
+    font-size: 28px;
+
+}
 .vsfxBox  {
     position: absolute;
     Height: 400px;
@@ -180,14 +188,15 @@ button {
 }
 
 .footer {
-    position: relative;
-    background-color: slategray;
-    border-top: 8px solid teal;
-    height: 70px;
-    top: 660px;
+    position: fixed;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 60px;
+    top: 705px;
     text-align: center;
     color: white;
     padding: 15px 0px 0px;
+    width: 100%;
 }
 
 form {
