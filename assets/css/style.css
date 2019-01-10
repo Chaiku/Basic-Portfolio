@@ -1,5 +1,6 @@
 body {
-    background-color: lightgrey;
+    background-color: lightgray;
+    background-image: url(../images/white-waves.png);
     
 }
 
@@ -26,13 +27,23 @@ body {
     float: left;
     background-color: white;
     position: relative;
-    left: 45%;
+    left: 40%;
 
 }
 
+a:link {
+    color: teal;
+}
+
+a:visited {
+    color: teal;
+}
 button {
     background-color: transparent;
-    border: none;
+    border-right: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
     text-align: center;
     font-size: 35px;
     padding: 10px 20px;
@@ -90,11 +101,89 @@ button {
     padding: 15px;
 }
 
+.vsfxBox  {
+    position: absolute;
+    Height: 400px;
+    width: 300px;
+    background-image: url(../images/ClockworkReborn.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+}
+
+.vsfxLabel {
+    background-color: teal;
+    position: absolute;
+    bottom: 237px;
+    right: 0px;
+    width: 300px;
+    text-align: center;
+}
+
+.drumBox {
+    position: absolute;
+    Height: 400px;
+    width: 300px;
+    background-image: url(../images/RaidersBass.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    right: 634px;
+    top: 95px;
+}
+
+.drumLabel {
+    background-color: teal;
+    position: absolute;
+    bottom: 234px;
+    right: 0px;
+    width: 300px;
+    text-align: center;
+}
+
+.musicBox {
+    position: absolute;
+    Height: 400px;
+    width: 300px;
+    background-image: url(../images/Soundcloud.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    right: 1021px;
+    top: 315px;
+}
+
+.musicLabel{
+    background-color: teal;
+    position: absolute;
+    bottom: 223px;
+    right: 0px;
+    width: 300px;
+    text-align: center;
+}
+
+.voiceBox {
+    position: absolute;
+    Height: 400px;
+    width: 300px;
+    background-image: url(../images/microphone.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    right: 246px;
+    top: 95px;
+}
+
+.voiceLabel {
+    background-color: teal;
+    position: absolute;
+    bottom: 234px;
+    right: 0px;
+    width: 300px;
+    text-align: center;
+}
+
 .footer {
     position: relative;
     background-color: slategray;
     border-top: 8px solid teal;
-    height: 50px;
+    height: 70px;
     top: 660px;
     text-align: center;
     color: white;
