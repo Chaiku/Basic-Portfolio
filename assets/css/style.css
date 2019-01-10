@@ -102,6 +102,9 @@ button {
     height: 320px;
     float: left;
     padding: 15px;
+    background-image: url(../images/LocalImage.JPG);
+    background-repeat: no-repeat;
+    background-size: 280px 355px;
 }
 
 .label {
