@@ -98,13 +98,11 @@ button {
 
 
 #AdamProfile {
-    width: 255px;
-    height: 320px;
+    width: 313px;
+    height: 284px;
     float: left;
     padding: 15px;
-    background-image: url(../images/LocalImage.JPG);
-    background-repeat: no-repeat;
-    background-size: 280px 355px;
+    transform: rotate(90deg);
 }
 
 .label {
