@@ -14,6 +14,9 @@ body {
 
 }
 
+h6 {
+    float: left;
+}
 .titleBar {
     background-color: white;
     width: 100%;
@@ -28,6 +31,7 @@ body {
     position: relative;
     left: 40%;
     height: 20px;
+    margin-top: 16px;
 
 }
 
@@ -38,7 +42,7 @@ a:link {
 a:visited {
     color: #4aaaa5;
 }
-button {
+.navBtn {
     background-color: transparent;
     border-right: 1px solid gray;
     border-top: none;
@@ -46,7 +50,7 @@ button {
     border-left: none;
     text-align: center;
     font-size: 35px;
-    padding: 10px 20px;
+    padding: 2px 20px;
     color: #4aaaa5;
     margin-top: 10px;
 }
